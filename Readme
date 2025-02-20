@@ -9,8 +9,7 @@ This code covers the exercise 2 related to the automation of a front end.
 HiberusMavenProject/
 
 * GoogleAutoSearch.java         # Automatiza la búsqueda de "Automatización" en Google, selecciona el link de Wikipedia, comprueba el año en que se hizo el 1er proceso automático y toma una captura de pantalla
-* pom.xml                     # Incluye todas las dependencias necesarias para la ejecución
-* readme.txt  # Archivo con instrucciones para ejecución en IntelliJ IDEA
+* Readme.txt  # Archivo con instrucciones para ejecución en IntelliJ IDEA
 
 
 ### Download and installation ###
@@ -26,12 +25,12 @@ _git clone https://github.com/angvazcar/HiberusMaven.git_
 *  Have Maven installed
 *  Have Selenium WebDriver installed
 *  Have ChromeDriver installed and configured
+*  Add dependencies in IntelliJ
 
 ### Usage and code execution ###
 
-* Open the project downloaded in the previous steps with IntelliJ (File--> Open and select the downloaded code)
-* In IntelliJ terminal run:
-_mvn clean install_
+* Open the project downloaded in the previous steps with IntelliJ (File--> Open and select the downloaded folder)
+* In IntelliJ terminal add the dependencies manually (File-->Project Structure-->Dependencies click on + and add the jar files from JAR files dependencies folder
 * Open GoogleAutoSearch.java in IntelliJ
 * Click on the run green button on the left of the code line _public static void main(String[] args)_ (if you do not see it in the top right corner,right click on GoogleAutoSearch.java and select Run 'GoogleAutoSearch.main()')
 
