@@ -31,7 +31,9 @@ _git clone https://github.com/angvazcar/HiberusMaven.git_
 
 * Open the project downloaded in the previous steps with IntelliJ (File--> Open and select the downloaded folder)
 * In IntelliJ terminal add the dependencies manually (File-->Project Structure-->Dependencies click on + and add the jar files from JAR files dependencies folder
-* Open GoogleAutoSearch.java in IntelliJ
+* Open GoogleAutoSearch.java from src folder in IntelliJ
+* Change the chromedriver path from the one on your computer (replace "/Users/angelesbuild38/Documents/Chromedriver/chromedriver" with your driver path usually in Windows:"c:\path\to\your\chromedriver.exe" and Mac: "usr/local/bin/chromedriver" 
+* Save the changes
 * Click on the run green button on the left of the code line _public static void main(String[] args)_ (if you do not see it in the top right corner,right click on GoogleAutoSearch.java and select Run 'GoogleAutoSearch.main()')
 
 
